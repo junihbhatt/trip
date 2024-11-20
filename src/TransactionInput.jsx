@@ -68,6 +68,7 @@ const TransactionInput = ({ names, onTransactionChange, transactionToEdit, onEdi
           placeholder="Note"
           className="px-3 py-2 border border-gray-300 rounded"
         ></textarea>
+        <label className='text-sm text-gray-600 pt-3'>Paid For (Hold down the Ctrl (Windows) or Command (Mac) key to select multiple items.)</label>
         <select
           multiple
           value={dividedAmong}
